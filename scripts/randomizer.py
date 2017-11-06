@@ -70,7 +70,7 @@ if __name__ == "__main__":
         "chars_number",
         metavar="<chars_number>",
         type=int,
-        help="Number of sentences you want to get from given text")
+        help="Number of characters you want to pick up from given text")
 
     ARGS = PARSER.parse_args()
     LOCATION = ARGS.location
